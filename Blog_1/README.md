@@ -187,7 +187,7 @@ Ví dụ:
 "Book a flight tomorrow" → ["Book", "a", "flight", "tomorrow"]
 
 <p align="center">
-  <img src="images\part4_NER.png" alt="Quy trình chat" width="600"><br/>
+  <img src="images\part4_tokenization.png" alt="Quy trình chat" width="600"><br/>
   <em>Hình 4.1. Tokenization</em>
 </p>
 
@@ -337,6 +337,7 @@ Zhang, Y., Sun, S., Galley, M., Chen, Y.-C., Brockett, C., Gao, X., … Dolan, B
 
 
 https://www.geeksforgeeks.org/nlp/what-is-natural-language-processing-nlp-chatbots/
+
 
 
 
