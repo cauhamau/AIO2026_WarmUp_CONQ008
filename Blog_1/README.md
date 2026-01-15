@@ -159,7 +159,7 @@ Thông qua dữ liệu tương tác, phản hồi của người dùng và các 
 Nhờ cơ chế này, chatbot càng được sử dụng nhiều thì càng “thông minh” và linh hoạt hơn.
 <p align="center">
   <img src="images\feedback.png" alt="Quy trình chat" width="600"><br/>
-  <em>Hình 3.5. Chatbot phản hồi sao cho dễ đọc và thân thiện nhất với người dùng</em>
+  <em>Hình 3.5. Chatbot học hỏi và tối ưu dựa trên phản hồi người dùng</em>
 </p>
 
 **6. Trả lời người dùng**
@@ -310,5 +310,6 @@ Jurafsky, D., & Martin, J. H. (2023). Speech and language processing (3rd ed., d
 Shum, H.-Y., He, X., & Li, D. (2018). From Eliza to XiaoIce: Challenges and opportunities with social chatbots. arXiv. https://arxiv.org/abs/1812.08989
 
 Zhang, Y., Sun, S., Galley, M., Chen, Y.-C., Brockett, C., Gao, X., … Dolan, B. (2024). A complete survey on LLM-based AI chatbots. arXiv. https://arxiv.org/abs/2406.16937
+
 
 https://www.geeksforgeeks.org/nlp/what-is-natural-language-processing-nlp-chatbots/
