@@ -196,7 +196,7 @@ Ví dụ:
 "What's the weather in **Chicago** tomorrow?" → **Chicago** là thực thể chính về địa điểm để chatbot đưa ra câu trả lời về thời tiết.
 
 <p align="center">
-  <img src="images\part4_NER.png.png" alt="Quy trình chat" width="600"><br/>
+  <img src="images\part4_NER.png" alt="Quy trình chat" width="600"><br/>
   <em>Hình 4.2. NER - Named Entity Recognition</em>
 </p>
 
@@ -337,6 +337,7 @@ Zhang, Y., Sun, S., Galley, M., Chen, Y.-C., Brockett, C., Gao, X., … Dolan, B
 
 
 https://www.geeksforgeeks.org/nlp/what-is-natural-language-processing-nlp-chatbots/
+
 
 
 
