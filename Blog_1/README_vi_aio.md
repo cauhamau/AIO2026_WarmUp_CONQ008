@@ -9,7 +9,7 @@ Trong bài viết này, chúng tôi sẽ đưa bạn đi từ những khái ni�
 
 ## 1.2. Hãy cùng phân biệt hai "thế hệ" chatbot:
 <p align="center">
-  <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_095833_3e05dc57.png" alt="Quy trình chat" width="600"><br/>
+  <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_095833_3e05dc57.png" alt="Hai thế hệ chatbot" width="600"><br/>
   <em>Hình 1.1. Hai thế hệ chatbot</em>
 </p>
 
@@ -58,12 +58,13 @@ Trong thời đại số, không ai muốn chờ đợi. Một nghiên cứu c�
 Điều này không chỉ cải thiện trải nghiệm khách hàng mà còn giúp doanh nghiệp tiết kiệm chi phí vận hành đáng kể.
 ## 2.3. Trải nghiệm người dùng: Giao tiếp tự nhiên như con người
 Đây chính là điểm mạnh nhất của AI chatbot so với các thế hệ trước. Thay vì phải nhớ các từ khóa cụ thể hoặc chọn từ menu cứng nhắc, người dùng có thể:
-Nói chuyện tự nhiên:
+
+**Nói chuyện tự nhiên:**
 
 - ❌ Chatbot truyền thống: "Bạn muốn kiểm tra đơn hàng? Vui lòng nhập mã đơn hàng."
 - ✅ AI chatbot: "Chào bạn! Mình thấy bạn có đơn hàng #12345 đang trên đường giao. Bạn muốn biết thêm thông tin gì không?"
 
-Hiểu ngữ cảnh:
+**Hiểu ngữ cảnh:**
 
 - Người dùng: "Tôi muốn mua một chiếc điện thoại"
 - Chatbot: "Bạn có ngân sách dự kiến bao nhiêu?"
