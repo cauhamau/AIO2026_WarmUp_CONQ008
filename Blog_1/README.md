@@ -1,3 +1,5 @@
+*Tóm tắt: Bài viết này giúp bạn hiểu AI chatbot là gì và cách chúng hoạt động trong thực tế. Thông qua việc phân tích từng bước của một lượt trò chuyện và các công nghệ cốt lõi như xử lý ngôn ngữ tự nhiên và mô hình AI, bài viết mang đến cái nhìn trực quan, dễ hiểu về lý do vì sao chatbot ngày càng phổ biến và hữu ích trong nhiều lĩnh vực của cuộc sống.*
+
 # 1. Mở đầu: Chatbot là gì?
 
 Hẳn bạn đã từng nhắn tin hỏi thông tin trên website một công ty nào đó, và ngay lập tức nhận được câu trả lời như thể đang chat với một nhân viên tư vấn thật sự. Hoặc đơn giản hơn, bạn đã thử hỏi Siri "Hôm nay thời tiết thế nào?" hay nhờ Google Assistant đặt báo thức. Đó chính là chatbot - một chương trình máy tính được thiết kế để trò chuyện với con người thông qua văn bản hoặc giọng nói, gần giống như cách bạn trò chuyện với một người thật.
@@ -29,7 +31,7 @@ Trong bài viết này, chúng tôi sẽ đưa bạn đi từ những khái ni�
 
 Và đây là điều thú vị: Chatbot AI hiện đại không chỉ "thông minh" hơn về mặt kỹ thuật, mà còn mang lại trải nghiệm gần gũi và tự nhiên hơn rất nhiều so với những người tiền nhiệm của chúng. Vậy bí mật đằng sau sự tiến hóa này là gì? Chúng ta sẽ cùng khám phá!
 
-# 2. Vì sao chúng ta cần AI Chatbot?
+# 2. Vì sao chúng ta cần AI chatbot?
 
 Trước khi đi sâu vào "bên trong" một chatbot hoạt động như thế nào, có lẽ bạn đang tự hỏi: "Tại sao chúng ta lại cần đến AI chatbot? Chatbot đơn giản theo quy tắc không đủ sao?"
 Câu trả lời nằm ở ba yếu tố quan trọng: Quy mô, Tốc độ, và Trải nghiệm người dùng.
@@ -107,7 +109,7 @@ AI chatbot đã và đang xuất hiện ở khắp mọi nơi:
 
 # 3. Quy trình một lượt chat diễn ra như thế nào?
 
-Bạn từng tự hỏi: Từ lúc bạn nhấn Enter đến khi Chatbot trả lời chỉ tốn vài giây, điều gì đã xảy ra?
+Bạn từng tự hỏi: Từ lúc bạn nhấn Enter đến khi chatbot trả lời chỉ tốn vài giây, điều gì đã xảy ra?
 
 **Cơ chế hoạt động của AI chatbot (NLP)**<br/>
 Cách hoạt động của các chatbot sử dụng NLP (Natural Language Processing) thực chất bao gồm một chuỗi các bước khá logic để hiểu và trả lời người dùng một cách tự nhiên. Mình giải thích ngắn gọn, đơn giản như sau:
@@ -177,15 +179,15 @@ Cuối cùng, bot gửi lại câu trả lời dưới dạng văn bản (hoặc
 *Quy trình này nghe có vẻ dài dòng nhưng thực tế nó diễn ra chỉ trong vài giây. Tất cả đều được xử lý tự động để mang lại cho bạn cảm giác như đang trò chuyện với một người bạn thực sự chứ không phải một cỗ máy vô tri.*
 
 
-# 4. Các công nghệ chính trong AI Chatbot
+# 4. Các công nghệ chính trong AI chatbot
 
-Khác với rule-based chatbot, AI Chatbot sử dụng các công nghệ tiên tiến về AI để tối ưu độ chính xác và mức độ trả lời tự nhiên của chatbot, đồng thời có thể trả lời nhiều câu hỏi của người dùng dựa trên ngữ cảnh.
+Khác với rule-based chatbot, AI chatbot sử dụng các công nghệ tiên tiến về AI để tối ưu độ chính xác và mức độ trả lời tự nhiên của chatbot, đồng thời có thể trả lời nhiều câu hỏi của người dùng dựa trên ngữ cảnh.
 
 **1. NLP - Natural Language Processing (Xử lí ngôn ngữ tự nhiên):**
 
 Xử lí ngôn ngữ tự nhiên là công nghệ giúp AI nhận diện được ngôn ngữ, kí tự, hiểu được ngữ pháp, ngữ cảnh của một đoạn văn, câu nói hoặc một đoạn hội thoại. Với NLP, chatbot có thể đưa ra phản hồi tự nhiên, hiệu quả và phù hợp với ngữ cảnh của người đặt câu hỏi, cung cấp thêm thông tin bao quát, chính xác theo nhu cầu người dùng.
 
-Các kĩ thuật chính của NLP trong AI Chatbot:
+Các kĩ thuật chính của NLP trong AI chatbot:
 - Tokenization: Phân tách một văn bản thành các kí tự, từ ngữ, các câu riêng biệt có thể hiểu được. Giúp tìm ra các keyword chính để xử lí, phân tích, hiểu ngữ nghĩa của con người để đưa ra các câu trả lời phù hợp tới chủ đề chính.
 Ví dụ:
 "Book a flight tomorrow" → ["Book", "a", "flight", "tomorrow"]
@@ -204,7 +206,7 @@ Ví dụ:
   <em>Hình 4.2. NER - Named Entity Recognition</em>
 </p>
 
-- Sentiment Analysis: Phân tích cảm xúc. Đóng vai trò nhận diện cảm xúc của người dùng trong đoạn hội thoại, từ đó đưa ra câu trả lời với ngôn từ phù hợp, tránh phật ý người dùng. Kĩ thuật này giúp cho AI Chatbot trả lời được tự nhiên, "cảm xúc" hơn và tăng trải nghiệm của người dùng chatbot.
+- Sentiment Analysis: Phân tích cảm xúc. Đóng vai trò nhận diện cảm xúc của người dùng trong đoạn hội thoại, từ đó đưa ra câu trả lời với ngôn từ phù hợp, tránh phật ý người dùng. Kĩ thuật này giúp cho AI chatbot trả lời được tự nhiên, "cảm xúc" hơn và tăng trải nghiệm của người dùng chatbot.
 
 <p align="center">
   <img src="images\part4_sentiment_analysis.png" alt="Quy trình chat" width="600"><br/>
@@ -213,7 +215,7 @@ Ví dụ:
 
 **2. Mô hình AI / Machine Learning / LLM:**
 
-Những công nghệ này là bộ não của AI Chatbot, các dữ liệu được đào tạo, cường hóa và cải thiện để giúp chatbot đưa ra các câu trả lời đa dạng hơn.
+Những công nghệ này là bộ não của AI chatbot, các dữ liệu được đào tạo, cường hóa và cải thiện để giúp chatbot đưa ra các câu trả lời đa dạng hơn.
 
 Machine Learning: Các thuật toán học máy đào tạo chatbot cách xử lí và trả lời các câu hỏi của người dùng, dựa trên dữ liệu đã có sẵn
 
@@ -223,7 +225,7 @@ LLM: Mô hình ngôn ngữ lớn chứa lượng dữ liệu khổng lồ về n
 
 <p align="center">
   <img src="images\part4_ML_DL_LLM_GenAI.png" alt="Quy trình chat" width="600"><br/>
-  <em>Hình 4.4. Các công nghệ dùng để đào tạo AI Chatbot</em>
+  <em>Hình 4.4. Các công nghệ dùng để đào tạo AI chatbot</em>
 </p>
 
 Bên cạnh các công nghệ trên, hiện nay Generative AI (AI tạo sinh) cũng đang được ứng dụng vào quá trình huấn luyện chatbot để cải thiện hiệu năng. AI tạo sinh biến chatbot từ công cụ Q&A thành một AI Agent, giúp đoạn hội thoại trở thành như cuộc trò chuyện tư vấn giữa người với người. Các câu trả lời sẽ không còn khuôn mẫu mà trở nên đa dạng hơn, chatbot có thể tự suy luận đưa ra các tư vấn ngoài những dữ liệu được đào tạo nhưng vẫn theo sát nội dung của cuộc trò chuyện.
@@ -271,7 +273,7 @@ Nói cách khác, chatbot hiện đại chủ yếu hoạt động bằng cách 
 | **Copilot (Microsoft)** | Hỗ trợ công việc             | Viết code, soạn email, làm việc với tài liệu Office                             | Khi cần một trợ lý hỗ trợ trực tiếp trong quá trình làm việc hằng ngày                     | Trung bình – lớn, tối ưu theo ngữ cảnh công việc         | Giới hạn ngoài môi trường làm việc; phụ thuộc hệ sinh thái Microsoft     |
 
 <p align="center">  
-<em>Bảng 5.1. So sánh giữa các AI Chatbot</em>
+<em>Bảng 5.1. So sánh giữa các AI chatbot</em>
 </p>
 
 Nói đơn giản:
@@ -337,8 +339,8 @@ Shum, H.-Y., He, X., & Li, D. (2018). From Eliza to XiaoIce: Challenges and oppo
 
 Zhang, Y., Sun, S., Galley, M., Chen, Y.-C., Brockett, C., Gao, X., … Dolan, B. (2024). A complete survey on LLM-based AI chatbots. arXiv. https://arxiv.org/abs/2406.16937
 
-
 https://www.geeksforgeeks.org/nlp/what-is-natural-language-processing-nlp-chatbots/
+
 
 
 
