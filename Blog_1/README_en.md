@@ -223,98 +223,87 @@ In addition to the technologies mentioned above, Generative AI is now being used
 
 In addition to answering user questions, AI chatbots can continue learning based on users’ current responses. Data is continuously updated from ongoing conversations with both the current user and other users on the same topics, allowing the chatbot to optimize and expand its knowledge. As a result, the chatbot becomes smarter over time.
 
-# 5. Các ví dụ so sánh 
+# 5. Comparative examples
 
-## 5.1. Chatbot và trợ lý con người: giống và khác nhau ở đâu?
+## 5.1. Chatbots vs human assistants: what are the similarities and differences?
 
-Hãy tưởng tượng bạn bước vào một cửa hàng điện thoại và hỏi:
+Imagine that you walk into a phone store and ask:
 
-*“Điện thoại này pin dùng được có lâu không?”*
+*“Does this phone have good battery life?”*
 
-Một trợ lý con người sẽ:
+A human assistant would:
 
-* Nghe câu hỏi
+* Listen to your question
+* Understand that you care about battery life, which is often seen as the “lifeline” of a smartphone
+* Give advice based on real experience and the current context
+* Ask follow-up questions to understand your needs better
 
-* Hiểu bạn là người quan tâm về pin "nguồn sống của một chiếc điện thoại"
+An AI chatbot, however, handles the question in a different way:
 
-* Dựa vào kinh nghiệm thực tế và ngữ cảnh để tư vấn
+* It does not “listen”; it reads text
+* It does not “understand” in a human sense, but analyzes language patterns
+* It uses learned data to predict the most suitable answer
 
-* Có thể hỏi thêm để làm rõ nhu cầu của bạn
+In other words, modern chatbots mainly generate responses based on probability. They do not truly understand or reason like humans.
 
-Trong khi đó, AI chatbot xử lý câu hỏi theo cách khác:
+## 5.2. Comparing popular chatbots: ChatGPT, Gemini, and Copilot
 
-* Nó không “nghe”, mà đọc chữ
+ Although they are all called “AI chatbots,” each system is **designed for a different purpose**.
 
-* Không “hiểu” theo nghĩa nhận thức, mà phân tích mẫu ngôn ngữ
+| **Chatbot**             | **Main purpose**                     | **Key strengths**                                                                               | **Best used when**                                                                    | **Context / Text Window (general)**                                   | **Main technical limitations**                                        |
+| ----------------------- | ------------------------------------ | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **ChatGPT**             | General conversation                 | Explains knowledge, answers questions, and writes content across many topics                    | When users want to “chat,” explore different topics, or need clear explanations       | Large – supports long conversations and remembers many previous turns | Can produce confident but incorrect answers; depends on training data |
+| **Gemini (Google)**     | Information search and summarization | Searches and summarizes data from multiple sources; deeply integrated with the Google ecosystem | When users need to search for information, analyze data, or work with Google services | Very large – optimized for long texts and multiple sources            | Results can be too general; strongly depends on search context        |
+| **Copilot (Microsoft)** | Work assistance                      | Helps with coding, writing emails, and working with Office documents                            | When users need direct support in daily work tasks                                    | Medium to large – optimized for work-related context                  | Limited outside work tasks; depends on the Microsoft ecosystem        |
 
-* Dựa trên dữ liệu đã học để dự đoán câu trả lời phù hợp nhất
-
-Nói cách khác, chatbot hiện đại chủ yếu hoạt động bằng cách tạo phản hồi dựa trên xác suất, chứ không có khả năng hiểu hay suy luận như con người.
-
-## 5.2. So sánh giữa các chatbot phổ biến: ChatGPT, Gemini, Copilot
-
- Mặc dù đều được gọi là “AI chatbot”, nhưng mỗi hệ thống **được thiết kế cho mục tiêu khác nhau**.
-
-| **Chatbot**             | **Mục tiêu chính**           | **Thế mạnh nổi bật**                                                            | **Phù hợp khi nào**                                                                        | **Context / Text Window (khái quát)**                    | **Hạn chế kỹ thuật chính**                                               |
-| ----------------------- | ---------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **ChatGPT**             | Hội thoại tổng quát          | Giải thích kiến thức, trả lời câu hỏi, viết nội dung đa lĩnh vực                | Khi người dùng muốn “nói chuyện”, hỏi nhiều chủ đề khác nhau, hoặc cần giải thích dễ hiểu  | Lớn – hỗ trợ hội thoại dài, nhớ được nhiều lượt trao đổi | Có thể tạo câu trả lời sai nhưng tự tin; phụ thuộc dữ liệu huấn luyện    |
-| **Gemini (Google)**     | Tra cứu & tổng hợp thông tin | Tìm kiếm, tổng hợp dữ liệu từ nhiều nguồn, tích hợp sâu với hệ sinh thái Google | Khi cần tra cứu thông tin, phân tích dữ liệu, hoặc làm việc gắn với các dịch vụ của Google | Rất lớn – tối ưu cho xử lý văn bản dài và nhiều nguồn    | Dễ cho kết quả mang tính tổng quát; phụ thuộc mạnh vào ngữ cảnh tìm kiếm |
-| **Copilot (Microsoft)** | Hỗ trợ công việc             | Viết code, soạn email, làm việc với tài liệu Office                             | Khi cần một trợ lý hỗ trợ trực tiếp trong quá trình làm việc hằng ngày                     | Trung bình – lớn, tối ưu theo ngữ cảnh công việc         | Giới hạn ngoài môi trường làm việc; phụ thuộc hệ sinh thái Microsoft     |
 
 <p align="center">  
-<em>Bảng 5.1. So sánh giữa các AI chatbot</em>
+<em>Table 5.1. Comparison between AI chatbots</em>
 </p>
 
-Nói đơn giản:
+Simply put:
 
-* ChatGPT giống một người bạn biết nhiều thứ
+* ChatGPT is like a knowledgeable friend
+* Gemini is like a research assistant
+* Copilot is like a work colleague
 
-* Gemini giống một trợ lý nghiên cứu
+All three are built on **Large Language Models** (LLMs)—models trained on massive amounts of data to generate new text.
 
-* Copilot giống một đồng nghiệp hỗ trợ công việc
+The main differences are in **how they are deployed and the context in which they are used**, not in which one is “more intelligent.”
 
-Điểm chung là cả ba đều dựa trên **mô hình ngôn ngữ lớn** (LLM) – loại mô hình học từ lượng dữ liệu khổng lồ để sinh ra văn bản mới.
+# 6. Common problems and limitations of AI chatbots 
 
-Điểm khác nhau nằm ở **cách triển khai và ngữ cảnh sử dụng**, không hẳn là “ai thông minh hơn ai”.
+## 6.1. Chatbots can misunderstand but sound very confident
 
-# 6. Những vấn đề thường gặp và giới hạn của AI chatbot 
-## 6.1. Chatbot có thể hiểu nhầm nhưng trả lời rất tự tin
+One common issue with AI chatbots is that **their answers may sound reasonable but still be wrong**.
 
-Một đặc điểm dễ gây hiểu lầm của AI chatbot là: **trả lời nghe rất hợp lý, nhưng vẫn có thể sai.**
+This happens because chatbots do not verify information like humans do. Instead, they predict the most likely answer based on learned data. When a question is unclear, lacks context, or falls outside the model’s training scope, the chatbot may still “guess” and produce a convincing response.
 
-Nguyên nhân là vì chatbot không kiểm chứng thông tin như con người, mà chỉ dự đoán câu trả lời có xác suất cao nhất dựa trên dữ liệu đã học. Khi gặp câu hỏi mơ hồ, thiếu ngữ cảnh, hoặc nằm ngoài phạm vi dữ liệu, chatbot vẫn có thể “đoán” và tạo ra câu trả lời nghe thuyết phục.
+This is a core limitation of language models: they process language using statistical patterns and do not truly understand the real world.
 
-Đây là hạn chế cốt lõi của các mô hình ngôn ngữ: chúng xử lý ngôn ngữ dựa trên mẫu thống kê, không có hiểu biết thực sự về thế giới.
+## 6.2. Chatbots cannot fully replace humans
 
-## 6.2. Chatbot không thể thay thế hoàn toàn con người
+Even though they are very useful, AI chatbots have clear limitations:
 
-Dù rất hữu ích, AI chatbot vẫn có những giới hạn rõ ràng:
+* They do not have real emotions
+* They do not fully understand social context
+* They do not take responsibility for decisions
+* In fields such as education, healthcare, or customer service, chatbots usually play a supporting role. They help reduce workload for humans rather than fully replacing them.
 
-* Không có cảm xúc thật
+Many studies suggest that chatbots work best when they are designed to support humans, not to act as “artificial humans.”
 
-* Không hiểu đầy đủ bối cảnh xã hội
+## 6.3. Chatbots strongly depend on training data
 
-* Không chịu trách nhiệm cho quyết định
+The quality of an AI chatbot directly depends on:
+* The amount of training data
+* The quality of that data
+* How the model is updated and fine-tuned
 
-* Trong nhiều lĩnh vực như giáo dục, y tế hay chăm sóc khách hàng, chatbot thường chỉ đóng vai trò hỗ trợ, giúp giảm tải công việc cho con người chứ không thay thế hoàn toàn.
+If the data is incomplete or biased, the chatbot may produce incorrect or biased answers. Data bias remains one of the biggest challenges in NLP today.
 
-Một kết luận cho rằng chatbot hiệu quả nhất khi được thiết kế để bổ trợ con người, chứ không phải đóng vai trò như một “con người nhân tạo”.
+For this reason, chatbots are not “set-and-forget” systems—they need continuous training, evaluation, and improvement.
 
-## 6.3. Chatbot phụ thuộc rất lớn vào dữ liệu huấn luyện
-
-
-Chất lượng của AI chatbot phụ thuộc trực tiếp vào:
-
-* Lượng dữ liệu huấn luyện
-
-* Chất lượng dữ liệu
-
-* Cách cập nhật và tinh chỉnh mô hình
-
-Nếu dữ liệu không đầy đủ hoặc thiên lệch, chatbot có thể đưa ra câu trả lời sai hoặc mang định kiến. Bias trong dữ liệu là một trong những thách thức lớn nhất của NLP hiện nay.
-Vì vậy, chatbot không phải là hệ thống “xong là xong”, mà cần được huấn luyện, đánh giá và cải thiện liên tục.
-
-*Qua bài viết này, bạn đã có cái nhìn tổng quan về AI chatbot: từ khái niệm cơ bản, lý do ra đời, quy trình xử lý một lượt trò chuyện cho đến các công nghệ cốt lõi bên trong. Nhờ sự kết hợp giữa xử lý ngôn ngữ tự nhiên và các mô hình AI hiện đại như Large Language Models, chatbot bây giờ không chỉ trả lời theo kịch bản có sẵn mà còn có khả năng hiểu ngữ cảnh, tạo phản hồi linh hoạt và học hỏi dần theo thời gian. Chính vì vậy, AI chatbot đang trở thành một công cụ hữu ích trong nhiều lĩnh vực như chăm sóc khách hàng, học tập, làm việc và giải trí, giúp tiết kiệm thời gian, nâng cao trải nghiệm người dùng và mở ra nhiều tiềm năng ứng dụng trong tương lai.*
+*Through this article, you have gained an overview of AI chatbots—from basic concepts and reasons for their development to how a single conversation is processed and the core technologies behind them. By combining natural language processing with modern AI models such as Large Language Models, chatbots today go beyond fixed scripts. They can handle context, generate flexible responses, and gradually improve over time.As a result, AI chatbots are becoming useful tools in many areas, including customer support, learning, work, and entertainment. They help save time, improve user experience, and open up many possibilities for future applications.*
 
 **REFERENCES**
 
