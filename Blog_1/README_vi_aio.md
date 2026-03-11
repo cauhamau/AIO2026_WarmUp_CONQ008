@@ -203,7 +203,7 @@ Ví dụ:
 
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_225257_f2ae856f.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 4.3. Sentiment Analysis</em>
+  <em>Hình 4.3. Sentiment Analysis (Nguồn: https://www.appinio.com/en/blog/market-research/sentiment-analysis)</em>
 </p>
 
 ## 4.2. Mô hình AI / Machine Learning / LLM:
@@ -332,6 +332,7 @@ Vì vậy, chatbot không phải là hệ thống “xong là xong”, mà cần
 * Zhang, Y., Sun, S., Galley, M., Chen, Y.-C., Brockett, C., Gao, X., … Dolan, B. (2024). A complete survey on LLM-based AI chatbots. arXiv. [https://arxiv.org/abs/2406.16937](https://arxiv.org/abs/2406.16937)
 
 * GeeksforGeeks. (n.d). What is Natural Language Processing? [https://www.geeksforgeeks.org/nlp/what-is-natural-language-processing-nlp-chatbots/](https://www.geeksforgeeks.org/nlp/what-is-natural-language-processing-nlp-chatbots/)
+
 
 
 
