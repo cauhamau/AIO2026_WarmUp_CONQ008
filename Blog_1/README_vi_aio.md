@@ -187,7 +187,7 @@ Ví dụ:
 
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_223403_d7f154db.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 4.1. Tokenization</em>
+  <em>Hình 4.1. Tokenization (Nguồn: https://medium.com/@arnavgupta16092004/tokenization-and-its-application-69ce6d90ed13)</em>
 </p>
 
 - Named Entity Recognition — NER: Nhận dạng thực thể. Nhận dạng các cụm từ trong văn bản và phân loại chúng vào trong các nhóm đã được định trước như tên người, tổ chức, địa điểm, thời gian, loại sản phẩm, nhãn hiệu. Trong AI based chatbot, NER giúp phân loại các từ ngữ định danh đặc biệt cho ngữ cảnh, các câu trả lời sẽ xoay quanh các thực thể này.
@@ -196,7 +196,7 @@ Ví dụ:
 
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_225123_d033cc61.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 4.2. NER - Named Entity Recognition</em>
+  <em>Hình 4.2. NER - Named Entity Recognition (Nguồn: https://databasecamp.de/en/use-case/named-entity-recognitions)</em>
 </p>
 
 - Sentiment Analysis: Phân tích cảm xúc. Đóng vai trò nhận diện cảm xúc của người dùng trong đoạn hội thoại, từ đó đưa ra câu trả lời với ngôn từ phù hợp, tránh phật ý người dùng. Kĩ thuật này giúp cho AI chatbot trả lời được tự nhiên, "cảm xúc" hơn và tăng trải nghiệm của người dùng chatbot.
@@ -218,7 +218,7 @@ LLM: Mô hình ngôn ngữ lớn chứa lượng dữ liệu khổng lồ về n
 
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_225650_9839e85b.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 4.4. Các công nghệ dùng để đào tạo AI chatbot</em>
+  <em>Hình 4.4. Các công nghệ dùng để đào tạo AI chatbot (Nguồn: https://www.linkedin.com/pulse/ai-ml-dl-nlp-generative-beginners-guide-muhammad-usman-iqbal-8cgcf/)</em>
 </p>
 
 Bên cạnh các công nghệ trên, hiện nay Generative AI (AI tạo sinh) cũng đang được ứng dụng vào quá trình huấn luyện chatbot để cải thiện hiệu năng. AI tạo sinh biến chatbot từ công cụ Q&A thành một AI Agent, giúp đoạn hội thoại trở thành như cuộc trò chuyện tư vấn giữa người với người. Các câu trả lời sẽ không còn khuôn mẫu mà trở nên đa dạng hơn, chatbot có thể tự suy luận đưa ra các tư vấn ngoài những dữ liệu được đào tạo nhưng vẫn theo sát nội dung của cuộc trò chuyện.
@@ -332,5 +332,6 @@ Vì vậy, chatbot không phải là hệ thống “xong là xong”, mà cần
 * Zhang, Y., Sun, S., Galley, M., Chen, Y.-C., Brockett, C., Gao, X., … Dolan, B. (2024). A complete survey on LLM-based AI chatbots. arXiv. [https://arxiv.org/abs/2406.16937](https://arxiv.org/abs/2406.16937)
 
 * GeeksforGeeks. (n.d). What is Natural Language Processing? [https://www.geeksforgeeks.org/nlp/what-is-natural-language-processing-nlp-chatbots/](https://www.geeksforgeeks.org/nlp/what-is-natural-language-processing-nlp-chatbots/)
+
 
 
