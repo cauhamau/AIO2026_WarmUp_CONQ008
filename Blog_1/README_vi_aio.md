@@ -121,15 +121,15 @@ Cách hoạt động của các chatbot sử dụng NLP (Natural Language Proces
 Khi bạn gửi tin nhắn, chatbot sẽ phân tích đoạn văn: tách thành từng từ (tokenization), xác định loại từ (danh từ, động từ…), và nhận diện các thông tin quan trọng như tên người, ngày tháng, địa điểm… Nói đơn giản là bước “đọc và hiểu sơ bộ” nội dung bạn vừa nhập.
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_222424_6cc03c45.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 3.2. Xử lý đầu vào (Input Processing)</em>
+  <em>Hình 3.2. Xử lý đầu vào (Input Processing) <br/> (Nguồn: ResearchGate - ALBERT-BiLSTM-CRF with pointer network based model for named entity recognition)</em>
 </p>
 
 **2. Nhận diện ý định (Intent Recognition)**
 
 Sau khi phân tích, chatbot xác định mục đích chính của bạn: bạn đang hỏi thông tin, yêu cầu làm gì đó, phản hồi, hay chỉ trò chuyện thôi? Bước này thường dùng mô hình phân loại để gán một nhãn ý định (intent). Nhờ vậy bot biết nên tra dữ liệu, gọi API, hay sinh câu trả lời tự nhiên.
 <p align="center">
-  <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_222559_a2f6cef5.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 3.3. Nhận diện ý định (Intent Recognition)</em>
+  <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_222559_a2f6cef5.png"  style="margin: 0 auto; display: block;"><br/>
+  <em>Hình 3.3. Nhận diện ý định (Intent Recognition) <br/> (Nguồn: https://www.toponseek.com/blogs/ai-intent/)</em>
 </p>
 
 **3. Quản lý hội thoại (Dialogue Management)**
@@ -148,7 +148,7 @@ Dựa trên ý định và ngữ cảnh, bot sẽ:<br/>
 - Hoặc tự tạo câu trả lời tự nhiên bằng các kỹ thuật sinh ngôn ngữ (natural language generation).
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_222753_f8a025b2.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 3.4. Quản lý hội thoại và sinh câu trả lời</em>
+  <em>Hình 3.4. Quản lý hội thoại và sinh câu trả lời <br/> (Nguồn: ResearchGate - Dialogue Management and Language Generation for a Robust Conversational Virtual Coach) </em>
 </p>
 
 **5. Học hỏi và cải thiện**
@@ -159,7 +159,7 @@ Thông qua dữ liệu tương tác, phản hồi của người dùng và các 
 Nhờ cơ chế này, chatbot càng được sử dụng nhiều thì càng “thông minh” và linh hoạt hơn.
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_222914_53f6da8f.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 3.5. Chatbot học hỏi và tối ưu dựa trên phản hồi người dùng</em>
+  <em>Hình 3.5. Chatbot học hỏi và tối ưu dựa trên phản hồi người dùng <br/> (Nguồn: https://useresponse.com/blog/how-to-gather-quality-feedback) </em>
 </p>
 
 **6. Trả lời người dùng**
@@ -167,7 +167,7 @@ Nhờ cơ chế này, chatbot càng được sử dụng nhiều thì càng “t
 Cuối cùng, bot gửi lại câu trả lời dưới dạng văn bản (hoặc giọng nói), sao cho dễ đọc và thân thiện nhất có thể.
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_223207_0e2d7002.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 3.6. Chatbot phản hồi sao cho dễ đọc và thân thiện nhất với người dùng</em>
+  <em>Hình 3.6. Chatbot phản hồi sao cho dễ đọc và thân thiện nhất với người dùng <br/> (Nguồn: https://langfuse.com/blog/showcase-llm-chatbot)</em>
 </p>
 
 *Quy trình này nghe có vẻ dài dòng nhưng thực tế nó diễn ra chỉ trong vài giây. Tất cả đều được xử lý tự động để mang lại cho bạn cảm giác như đang trò chuyện với một người bạn thực sự chứ không phải một cỗ máy vô tri.*
@@ -332,4 +332,5 @@ Vì vậy, chatbot không phải là hệ thống “xong là xong”, mà cần
 * Zhang, Y., Sun, S., Galley, M., Chen, Y.-C., Brockett, C., Gao, X., … Dolan, B. (2024). A complete survey on LLM-based AI chatbots. arXiv. [https://arxiv.org/abs/2406.16937](https://arxiv.org/abs/2406.16937)
 
 * GeeksforGeeks. (n.d). What is Natural Language Processing? [https://www.geeksforgeeks.org/nlp/what-is-natural-language-processing-nlp-chatbots/](https://www.geeksforgeeks.org/nlp/what-is-natural-language-processing-nlp-chatbots/)
+
 
