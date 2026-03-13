@@ -121,7 +121,7 @@ Cách hoạt động của các chatbot sử dụng NLP (Natural Language Proces
 Khi bạn gửi tin nhắn, chatbot sẽ phân tích đoạn văn: tách thành từng từ (tokenization), xác định loại từ (danh từ, động từ…), và nhận diện các thông tin quan trọng như tên người, ngày tháng, địa điểm… Nói đơn giản là bước “đọc và hiểu sơ bộ” nội dung bạn vừa nhập.
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_222424_6cc03c45.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 3.2. Xử lý đầu vào (Input Processing) <br/> (Nguồn: ResearchGate - ALBERT-BiLSTM-CRF with pointer network based model for named entity recognition)</em>
+  <em>Hình 3.2. Quy trình xử lý đầu vào (Input Processing); nguồn: <a href="https://www.researchgate.net/publication/394035327_ALBERT-BiLSTM-CRF_with_pointer_network_based_model_for_named_entity_recognition">ResearchGate</a></em>
 </p>
 
 **2. Nhận diện ý định (Intent Recognition)**
@@ -129,7 +129,7 @@ Khi bạn gửi tin nhắn, chatbot sẽ phân tích đoạn văn: tách thành 
 Sau khi phân tích, chatbot xác định mục đích chính của bạn: bạn đang hỏi thông tin, yêu cầu làm gì đó, phản hồi, hay chỉ trò chuyện thôi? Bước này thường dùng mô hình phân loại để gán một nhãn ý định (intent). Nhờ vậy bot biết nên tra dữ liệu, gọi API, hay sinh câu trả lời tự nhiên.
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_222559_a2f6cef5.png"  style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 3.3. Nhận diện ý định (Intent Recognition) <br/> (Nguồn: https://www.toponseek.com/blogs/ai-intent/)</em>
+  <em>Hình 3.3. Nhận diện ý định (Intent Recognition); nguồn: <a href=" https://www.toponseek.com/blogs/ai-intent/">toponseek</a></em>
 </p>
 
 **3. Quản lý hội thoại (Dialogue Management)**
@@ -148,7 +148,7 @@ Dựa trên ý định và ngữ cảnh, bot sẽ:<br/>
 - Hoặc tự tạo câu trả lời tự nhiên bằng các kỹ thuật sinh ngôn ngữ (natural language generation).
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_222753_f8a025b2.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 3.4. Quản lý hội thoại và sinh câu trả lời <br/> (Nguồn: ResearchGate - Dialogue Management and Language Generation for a Robust Conversational Virtual Coach) </em>
+  <em>Hình 3.4. Quản lý hội thoại và sinh câu trả lời; nguồn: <a href="https://www.researchgate.net/publication/394035327_ALBERT-BiLSTM-CRF_with_pointer_network_based_model_for_named_entity_recognition">ResearchGate</a></em>
 </p>
 
 **5. Học hỏi và cải thiện**
@@ -159,7 +159,7 @@ Thông qua dữ liệu tương tác, phản hồi của người dùng và các 
 Nhờ cơ chế này, chatbot càng được sử dụng nhiều thì càng “thông minh” và linh hoạt hơn.
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_222914_53f6da8f.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 3.5. Chatbot học hỏi và tối ưu dựa trên phản hồi người dùng <br/> (Nguồn: https://useresponse.com/blog/how-to-gather-quality-feedback) </em>
+  <em>Hình 3.5. Chatbot học hỏi và tối ưu dựa trên phản hồi người dùng; nguồn: <a href="https://useresponse.com/blog/how-to-gather-quality-feedback">useresponse</a> </em>
 </p>
 
 **6. Trả lời người dùng**
@@ -167,7 +167,7 @@ Nhờ cơ chế này, chatbot càng được sử dụng nhiều thì càng “t
 Cuối cùng, bot gửi lại câu trả lời dưới dạng văn bản (hoặc giọng nói), sao cho dễ đọc và thân thiện nhất có thể.
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_223207_0e2d7002.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 3.6. Chatbot phản hồi sao cho dễ đọc và thân thiện nhất với người dùng <br/> (Nguồn: https://langfuse.com/blog/showcase-llm-chatbot)</em>
+  <em>Hình 3.6. Chatbot phản hồi sao cho dễ đọc và thân thiện nhất với người dùng; nguồn: <a href="https://langfuse.com/blog/showcase-llm-chatbot">langfuse.com</a></em>
 </p>
 
 *Quy trình này nghe có vẻ dài dòng nhưng thực tế nó diễn ra chỉ trong vài giây. Tất cả đều được xử lý tự động để mang lại cho bạn cảm giác như đang trò chuyện với một người bạn thực sự chứ không phải một cỗ máy vô tri.*
@@ -187,7 +187,7 @@ Ví dụ:
 
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_223403_d7f154db.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 4.1. Tokenization (Nguồn: https://medium.com/@arnavgupta16092004/tokenization-and-its-application-69ce6d90ed13)</em>
+  <em>Hình 4.1. Tokenization; nguồn: <a href="https://medium.com/@arnavgupta16092004/tokenization-and-its-application-69ce6d90ed13">Arnav Gupta (Medium)</a></em>
 </p>
 
 - Named Entity Recognition — NER: Nhận dạng thực thể. Nhận dạng các cụm từ trong văn bản và phân loại chúng vào trong các nhóm đã được định trước như tên người, tổ chức, địa điểm, thời gian, loại sản phẩm, nhãn hiệu. Trong AI based chatbot, NER giúp phân loại các từ ngữ định danh đặc biệt cho ngữ cảnh, các câu trả lời sẽ xoay quanh các thực thể này.
@@ -196,14 +196,14 @@ Ví dụ:
 
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_225123_d033cc61.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 4.2. NER - Named Entity Recognition (Nguồn: https://databasecamp.de/en/use-case/named-entity-recognitions)</em>
+  <em>Hình 4.2. NER - Named Entity Recognition; nguồn: <a href="https://databasecamp.de/en/use-case/named-entity-recognitions">DatabaseCamp</a></em>
 </p>
 
 - Sentiment Analysis: Phân tích cảm xúc. Đóng vai trò nhận diện cảm xúc của người dùng trong đoạn hội thoại, từ đó đưa ra câu trả lời với ngôn từ phù hợp, tránh phật ý người dùng. Kĩ thuật này giúp cho AI chatbot trả lời được tự nhiên, "cảm xúc" hơn và tăng trải nghiệm của người dùng chatbot.
 
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_225257_f2ae856f.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 4.3. Sentiment Analysis (Nguồn: https://www.appinio.com/en/blog/market-research/sentiment-analysis)</em>
+  <em>Hình 4.3. Sentiment Analysis; nguồn: <a href="https://www.appinio.com/en/blog/market-research/sentiment-analysis">appinio</a></em>
 </p>
 
 ## 4.2. Mô hình AI / Machine Learning / LLM:
@@ -218,7 +218,7 @@ LLM: Mô hình ngôn ngữ lớn chứa lượng dữ liệu khổng lồ về n
 
 <p align="center">
   <img src="https://aioconquer.aivietnam.edu.vn/static/uploads/20260116_225650_9839e85b.png" style="margin: 0 auto; display: block;"><br/>
-  <em>Hình 4.4. Các công nghệ dùng để đào tạo AI chatbot (Nguồn: https://www.linkedin.com/pulse/ai-ml-dl-nlp-generative-beginners-guide-muhammad-usman-iqbal-8cgcf/)</em>
+  <em>Hình 4.4. Các công nghệ dùng để đào tạo AI chatbot; nguồn: <a href="https://www.linkedin.com/pulse/ai-ml-dl-nlp-generative-beginners-guide-muhammad-usman-iqbal-8cgcf/">Muhammad Usman Iqbal (via LinkedIn)</a></em>
 </p>
 
 Bên cạnh các công nghệ trên, hiện nay Generative AI (AI tạo sinh) cũng đang được ứng dụng vào quá trình huấn luyện chatbot để cải thiện hiệu năng. AI tạo sinh biến chatbot từ công cụ Q&A thành một AI Agent, giúp đoạn hội thoại trở thành như cuộc trò chuyện tư vấn giữa người với người. Các câu trả lời sẽ không còn khuôn mẫu mà trở nên đa dạng hơn, chatbot có thể tự suy luận đưa ra các tư vấn ngoài những dữ liệu được đào tạo nhưng vẫn theo sát nội dung của cuộc trò chuyện.
@@ -332,6 +332,7 @@ Vì vậy, chatbot không phải là hệ thống “xong là xong”, mà cần
 * Zhang, Y., Sun, S., Galley, M., Chen, Y.-C., Brockett, C., Gao, X., … Dolan, B. (2024). A complete survey on LLM-based AI chatbots. arXiv. [https://arxiv.org/abs/2406.16937](https://arxiv.org/abs/2406.16937)
 
 * GeeksforGeeks. (n.d). What is Natural Language Processing? [https://www.geeksforgeeks.org/nlp/what-is-natural-language-processing-nlp-chatbots/](https://www.geeksforgeeks.org/nlp/what-is-natural-language-processing-nlp-chatbots/)
+
 
 
 
